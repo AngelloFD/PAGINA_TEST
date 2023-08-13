@@ -141,7 +141,7 @@ body{
         display: flex;
         padding: 10px 0px;
         align-items: center;
-        gap: 5px;
+        gap: px;
         align-self: stretch;
         border-bottom: 1px solid var(--gray-300, #B3B3B3);
     }
@@ -263,6 +263,7 @@ body{
         background: var(--main-color-primary-primary-light, #CFD4F4);
         border-radius: 7px;
         border-color: var(--main-color-primary-primary-alter, #aeb7f5);
+        cursor: pointer;
     }
 
     #TextoBotonLogin{
@@ -275,6 +276,7 @@ body{
         font-weight: 500;
         line-height: 28px; 
         letter-spacing: -0.36px;
+        cursor: pointer;
     }
 
     .FrameOlvidasteContra{
